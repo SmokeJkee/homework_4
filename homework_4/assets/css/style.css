@@ -56,15 +56,15 @@ hr {
 }
 
 .lamp {
-    background-image: url('/assets/icons/light.svg');
+    background-image: url('../icons/light.svg');
 }
 
 .keyboard {
-    background-image: url('/assets/icons/keyboard.svg');
+    background-image: url('../icons/keyboard.svg');
 }
 
 .lithing {
-    background-image: url('/assets/icons/lithing.svg');
+    background-image: url('../icons/lithing.svg');
 }
 
 .awesome-content-block-title {
@@ -81,7 +81,7 @@ hr {
 .info-content {
     position: relative;
     height: 326px;
-    background: url('/assets/img/background.png') center;  /* Можно растянуть на весь экран, но тогда картинка была бы низкого разрешения */
+    background: url('../img/background.png') center;  /* Можно растянуть на весь экран, но тогда картинка была бы низкого разрешения */
     z-index: -2;
 }
 
