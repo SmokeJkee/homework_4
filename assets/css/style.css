@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: open sans, sans-serif;
+    text-align: center; /* Поместил в селектор *, так как весь текст в макете находится по центру */
+}
+
+.awesome-content {
+    margin: 100px 143px 108px;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: raleway;
+    font-weight: 400
+}
+
+hr {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 64px;
+    height: 1px;          /* В макете показывает 2px, но визуально половина обведенной области пустая, решил поставить 1px */
+    background-color: #E72424;
+    border: 0px;
+}
+
+.main-text {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.awesome-content-blocks {
+    font-size: 0;
+}
+
+.awesome-content-block {
+    display: inline-block;
+    max-width: 350px;
+    font-size: 14px;
+    margin: 67px 0 0 16px;
+}
+
+.awesome-content-block:first-child {
+    margin-left: 0px;
+}
+
+.awesome-content-block-circle {
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lamp {
+    background-image: url('../icons/light.svg');
+}
+
+.keyboard {
+    background-image: url('../icons/keyboard.svg');
+}
+
+.lithing {
+    background-image: url('../icons/lithing.svg');
+}
+
+.awesome-content-block-title {
+    margin: 30px 0 16px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.awesome-content-block-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.info-content {
+    position: relative;
+    height: 326px;
+    background: url('../img/background.png') center;  /* Можно растянуть на весь экран, но тогда картинка была бы низкого разрешения */
+    z-index: 0;
+}
+
+.info-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0,0,0,.7);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.info-title {
+    color: white;
+    padding-top: 76px;
+}
+
+.info-line {
+    background-color: white;          
+    margin-top: 46px;                          
+}
+
+.info-text {
+    font-size: 16px;
+}
+
+.info-button {
+    margin-top: 30px;
+    width: 135px;
+    height: 42px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;    
+    
+}
+
+.social {
+    height: 100px;
+    background: black;
+}
+
+.link {
+    display: inline-block;
+    margin: 30px 0 18px 0;
+    font-size: 23px;
+    margin-left: 25px;
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+}
+
+.link:first-child {
+    margin-left: 0px;
+}
+
+.company {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    font-size: 12px;
+    color: grey;
+}
